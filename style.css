@@ -70,3 +70,28 @@ p:nth-child(5){
     left: 400px;
     border-radius: 50%;
 }
+h2{
+    position: absolute;
+   top: 50%;
+    left: 45%;
+    overflow: hidden;
+    animation: anim 8s linear infinite;
+}
+@keyframes anim{
+    /* 0% {
+        transform: translateX(100%);
+    }
+    50% {
+        transform: translateX(0%); 
+    }
+    100% {
+        transform: translateX(-100%);
+    } */
+from{
+    transform: translateX(100%);
+}
+to{
+    transform: translateX(-100%); 
+}
+}
+
